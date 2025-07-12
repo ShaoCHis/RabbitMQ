@@ -26,7 +26,6 @@ public:
     SqliteHelper(const std::string &dbfile):_dbfile(dbfile),_handler(nullptr){}
     ~SqliteHelper() {
         close();
-        delete _handler;
     }
 
     bool open(int safe_level=SQLITE_OPEN_FULLMUTEX){

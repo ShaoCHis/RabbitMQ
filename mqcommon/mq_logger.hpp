@@ -27,6 +27,5 @@ namespace RabbitMQ{
 #define DLOG(format,...) LOG("DBG",DBG_LEVEL,format,## __VA_ARGS__)
 #define ILOG(format,...) LOG("INF",INF_LEVEL,format,## __VA_ARGS__)
 #define ELOG(format,...) LOG("ERR",ERR_LEVEL,format,## __VA_ARGS__)
-
-#endif
 }
+#endif
